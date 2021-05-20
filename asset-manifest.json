@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "//ginochasles.github.io/site/static/css/main.efcbcab8.chunk.css",
+    "main.css": "//ginochasles.github.io/site/static/css/main.da29a9c4.chunk.css",
     "main.js": "//ginochasles.github.io/site/static/js/main.31ec5370.chunk.js",
     "main.js.map": "//ginochasles.github.io/site/static/js/main.31ec5370.chunk.js.map",
     "runtime-main.js": "//ginochasles.github.io/site/static/js/runtime-main.047af9a5.js",
@@ -8,13 +8,13 @@
     "static/js/2.695ff732.chunk.js": "//ginochasles.github.io/site/static/js/2.695ff732.chunk.js",
     "static/js/2.695ff732.chunk.js.map": "//ginochasles.github.io/site/static/js/2.695ff732.chunk.js.map",
     "index.html": "//ginochasles.github.io/site/index.html",
-    "static/css/main.efcbcab8.chunk.css.map": "//ginochasles.github.io/site/static/css/main.efcbcab8.chunk.css.map",
+    "static/css/main.da29a9c4.chunk.css.map": "//ginochasles.github.io/site/static/css/main.da29a9c4.chunk.css.map",
     "static/js/2.695ff732.chunk.js.LICENSE.txt": "//ginochasles.github.io/site/static/js/2.695ff732.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.047af9a5.js",
     "static/js/2.695ff732.chunk.js",
-    "static/css/main.efcbcab8.chunk.css",
+    "static/css/main.da29a9c4.chunk.css",
     "static/js/main.31ec5370.chunk.js"
   ]
 }
