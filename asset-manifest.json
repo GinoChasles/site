@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "//ginochasles.github.io/site/static/css/main.efcbcab8.chunk.css",
-    "main.js": "//ginochasles.github.io/site/static/js/main.28f351cf.chunk.js",
-    "main.js.map": "//ginochasles.github.io/site/static/js/main.28f351cf.chunk.js.map",
+    "main.js": "//ginochasles.github.io/site/static/js/main.33da19b1.chunk.js",
+    "main.js.map": "//ginochasles.github.io/site/static/js/main.33da19b1.chunk.js.map",
     "runtime-main.js": "//ginochasles.github.io/site/static/js/runtime-main.047af9a5.js",
     "runtime-main.js.map": "//ginochasles.github.io/site/static/js/runtime-main.047af9a5.js.map",
     "static/js/2.bf260fdb.chunk.js": "//ginochasles.github.io/site/static/js/2.bf260fdb.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.047af9a5.js",
     "static/js/2.bf260fdb.chunk.js",
     "static/css/main.efcbcab8.chunk.css",
-    "static/js/main.28f351cf.chunk.js"
+    "static/js/main.33da19b1.chunk.js"
   ]
 }
