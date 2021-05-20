@@ -1,0 +1,270 @@
+{
+  "profil": {
+    "nom": "Chasles",
+    "prenom": "Gino",
+    "metier": "Développeur Web/Web Mobile",
+    "adresse": {
+      "numero": 10,
+      "rue": "Allée Adrienne Bolland",
+      "appartement": "N°103",
+      "batiment": "B'1",
+      "codePostale": 44300,
+      "ville": "Nantes"
+    },
+    "telephone": "06 68 36 45 10",
+    "mail": "mailto:gino.chasles@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/gino-chasles-9501351b6/",
+    "github": "https://github.com/GinoChasles",
+    "description": "Après une expérience certaine dans le monde industriel et dans celui de la randonnée j'ai appris que \"Le marcheur est celui qui prend son temps et ne laisse pas le temps le prendre\".",
+    "photo": "./images/PhotoProfil.jpg"
+  },
+  "formations": [
+    {
+      "id": "form4",
+      "date": "28 septembre 2020 - 22 avril 2021",
+      "diplome": "Titre professionnel niveau III - Développeur Web/Web mobile",
+      "metier": "Développeur Web/Web mobile",
+      "lieu": "Nantes",
+      "ecole": "Simplon",
+      "explication": "formation présentiel/distanciel."
+    },
+    {
+      "id": "form3",
+      "date": "Septembre 2017 -  mars 2018",
+      "diplome": "BTS Métier du Géomètre Topographe et de la Modélisation Numérique en apprentissage (MGTMN)",
+      "metier": "Apprenti Géomètre Topographe",
+      "lieu": "Nantes",
+      "ecole": "C.F.A Eugène Livet",
+      "entreprise": "Air&Geo",
+      "explication": "Compétence sur AutoCad, traitement de données issue d'un Leica BackPack"
+    },
+    {
+      "id": "form2",
+      "date": "2012 - 2014",
+      "diplome": "BTS Informatique et Réseau pour l'Industrie et le Service (IRIS)",
+      "metier": "Technicien Informatique / Administrateur Réseau",
+      "lieu": "La Roche Sur Yon",
+      "ecole": "Lycée Delattre  de Tassigny",
+      "explication": "formation CISCO CCNA 1-4, C, C++"
+    },
+    {
+      "id": "form1",
+      "date": "Juin 2012",
+      "diplome": "Baccalauréat Scientifique - Spécialité mathématique",
+      "lieu": "Le Longeron",
+      "ecole": "lycée Champ-Blanc",
+      "explication": "option tennis de table, mention AB"
+    }
+  ],
+  "experiences": [
+    {
+      "id": "exp7",
+      "date": "Avril 2019 - Juin 2020",
+      "entreprise": "Arrk Shaper's",
+      "lieu": "Aigrefeuille sur maine",
+      "poste": "Opérateur Qualité",
+      "information": "Formation interne aide monteur régleur injection plastique, pontier 32T"
+    },
+    {
+      "id": "exp6",
+      "date": "Janvier 2017 - Août 2017",
+      "entreprise": "Sodebo",
+      "lieu": "Saint Georges de Montaigu",
+      "poste": "Agent de Production",
+      "information": "Formation interne CACES 1 et 3"
+    },
+    {
+      "id": "exp5",
+      "date": "Mai 2016 - Septembre 2016",
+      "entreprise": "Jean Routhiau",
+      "lieu": "Saint Fulgent",
+      "poste": "Agent de Production",
+      "information": "Préparateur de commandes, expédition, gestion machine cartonnage"
+    },
+    {
+      "id": "exp4",
+      "date": "Septembre 2015 - Avril 2016",
+      "entreprise": "Technicentre SNCF",
+      "lieu": "Périgueux",
+      "poste": "Peintre Industriel",
+      "information": "Préparation des pièces; ponçage, mastic, nettoyage. Peinture monocouche, poudre électrostatique"
+    },
+    {
+      "id": "exp3",
+      "date": "Juillet 2013 - Janvier 2015",
+      "entreprise": "Maître Coq - Service Réception-Stocks",
+      "lieu": "Saint Fulgent",
+      "poste": "Agent de Production",
+      "information": "Destockeur, préparateur de commande, chef de ligne"
+    },
+    {
+      "id": "exp2",
+      "date": "21 mai 2013 - 28 juin 2013",
+      "entreprise": "\"La Forge des possibles\" et \"Les Clefs du Net\"",
+      "lieu": "La Roche Sur Yon",
+      "poste": "Animateur/Développeur",
+      "information": "Stage pour le BTS IRIS.FabLab. Animateur d'activités ludiques avec Arduino. Projet arbre à Tweets.Impression 3D, découpe laser. Programmation domotique"
+    },
+    {
+      "id": "exp1",
+      "date": "Juillet 2012 - Juin 2013",
+      "entreprise": "Maître Coq - Service Réception-Stocks",
+      "lieu": "Saint Fulgent",
+      "poste": "Agent de Production",
+      "information": "Destockeur, préparateur de commande"
+    }
+  ],
+  "competences": [
+    {
+      "name": "CSS3",
+      "niveau": 3,
+      "information": "",
+      "image": "./images/css3.png"
+    },
+    {
+      "name": "HTML5",
+      "niveau": 3,
+      "information": "",
+      "image": "./images/HTML5.png"
+    },
+    {
+      "name": "C",
+      "niveau": 2,
+      "information": "",
+      "image": "./images/c.png"
+    },
+    {
+      "name": "C++",
+      "niveau": 2,
+      "information": "",
+      "image": "./images/c++.png"
+    },
+    {
+      "name": "Cisco",
+      "niveau": 3,
+      "information": "",
+      "image": "./images/cisco.png"
+    },
+    {
+      "name": "Arduino",
+      "niveau": 3,
+      "information": "",
+      "image": "./images/arduino.png"
+    },
+    {
+      "name": "MySQL",
+      "niveau": 3,
+      "information": "",
+      "image": "./images/mysql.png"
+    },
+    {
+      "name": "Git",
+      "niveau": 3,
+      "information": "",
+      "image": "./images/git.png"
+    },
+    {
+      "name": "Github",
+      "niveau": 3,
+      "information": "",
+      "image": "./images/github.png"
+    },
+    {
+      "name": "Java",
+      "niveau": 3,
+      "information": "",
+      "image": "./images/java.png"
+    },
+    {
+      "name": "JavaScript",
+      "niveau": 3,
+      "information": "",
+      "image": "./images/javascript.png"
+    },
+    {
+      "name": "VueJS",
+      "niveau": 2,
+      "information": "",
+      "image": "./images/vuejs.png"
+    },
+    {
+      "name": "ReactJS",
+      "niveau": 3,
+      "information": "",
+      "image": "./images/reactjs.png"
+    },
+    {
+      "name": "NodeJS",
+      "niveau": 3,
+      "information": "",
+      "image": "./images/nodejs.png"
+    },
+    {
+      "name": "SpringBoot",
+      "niveau": 3,
+      "information": "",
+      "image": "./images/springboot.png"
+    },
+    {
+      "name": "Maven",
+      "niveau": 3,
+      "information": "",
+      "image": "./images/maven.png"
+    }
+  ],
+  "softskills": [
+    {
+      "id": "soft1",
+      "skill": "Communication client"
+    },
+    {
+      "id": "soft2",
+      "skill": "Gestion du temps"
+    },
+    {
+      "id": "soft3",
+      "skill": "Prise d'initiative"
+    },
+    {
+      "id": "soft4",
+      "skill": "Esprit et travail d'équipe"
+    },
+    {
+      "id": "soft5",
+      "skill": "Adaptabilité"
+    },
+    {
+      "id": "soft6",
+      "skill": "Leadership"
+    },
+    {
+      "id": "soft7",
+      "skill": "Ethique professionnelle"
+    },
+    {
+      "id": "soft8",
+      "skill": "Ponctualité"
+    },
+    {
+      "id": "soft9",
+      "skill": "Créativité"
+    }
+  ],
+  "loisirs": [
+    {
+      "id": "loi3",
+      "name": "Dessin",
+      "info": "Reproduction d'image au crayon papier"
+    },
+    {
+      "id": "loi2",
+      "name": "Musique",
+      "info": "l'art de la musique"
+    },
+    {
+      "id": "loi1",
+      "name": "Voyage",
+      "info": "Randonnée, treck, bivouac. 30km par jour avec un sac de 22kg"
+    }
+  ]
+}
