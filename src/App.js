@@ -20,14 +20,16 @@ function App() {
       <NavBar />
      <Switch>
         <Route path="/cv">
-        <iframe src="/images/CV_Chasles_Gino.pdf" title="cv"></iframe>
-        <iframe src={process.env.PUBLIC_URL + "/CV_Chasles_Gino_OC.pdf"} title="cv"></iframe>
-        <iframe src={process.env.PUBLIC_URL + "/images/CV_Chasles_Gino_OC.pdf"} title="cv"></iframe>
-        <embed type="application/pdf" src={process.env.PUBLIC_URL + "/CV_Chasles_Gino.pdf"} height="500px" width="100%" title="cv"></embed>
         <embed type="application/pdf" src={process.env.PUBLIC_URL + "/images/CV_Chasles_Gino.pdf"} height="500px" width="100%" title="cv"></embed>
-        <embed type="application/pdf" src="/images/CV_Chasles_Gino.pdf" height="500px" width="100%" title="cv"></embed>
-        <embed type="application/pdf" src="site/images/CV_Chasles_Gino.pdf" height="500px" width="100%" title="cv"></embed>
-        <embed type="application/pdf" src="/CV_Chasles_Gino.pdf" height="500px" width="100%" title="cv"></embed>
+        <embed type="application/pdf" src={process.env.PUBLIC_URL + "/images/CV_Chasles_Gino.pdf#view=FitBH"} height="500px" width="100%" title="cv"></embed>
+        <embed type="application/pdf" src={process.env.PUBLIC_URL + "/images/CV_Chasles_Gino.pdf#view=Fit"} height="500px" width="100%" title="cv"></embed>
+        <embed type="application/pdf" src={process.env.PUBLIC_URL + "/images/CV_Chasles_Gino.pdf#view=FitH"} height="500px" width="100%" title="cv"></embed>
+        <embed type="application/pdf" src={process.env.PUBLIC_URL + "/images/CV_Chasles_Gino.pdf#view=FitV"} height="500px" width="100%" title="cv"></embed>
+        <embed type="application/pdf" src={process.env.PUBLIC_URL + "/images/CV_Chasles_Gino.pdf#view=FitB"} height="500px" width="100%" title="cv"></embed>
+        <embed type="application/pdf" src={process.env.PUBLIC_URL + "/images/CV_Chasles_Gino.pdf#view=FitBV"} height="500px" width="100%" title="cv"></embed>
+       
+        <object type="application/pdf" data={process.env.PUBLIC_URL + "/images/CV_Chasles_Gino.pdf"} height="500px" width="100%" title="cv"></object>
+        <object type="application/pdf" data="site/images/CV_Chasles_Gino.pdf" height="500px" width="100%" title="cv"></object>
           
           <Formation />
         </Route>
