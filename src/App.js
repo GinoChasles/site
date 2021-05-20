@@ -30,8 +30,7 @@ function App() {
         </Route>
         <Route path="/portfolio"><Profil/></Route>
         <Route path="/passions" ><div>portfolio</div>
-        <embed type="application/pdf" src={process.env.PUBLIC_URL + "/CV_Chasles_Gino.pdf#zoom=50"} height="500px" width="100%" title="cv">
-    </embed>
+        <embed type="application/pdf" src={process.env.PUBLIC_URL + "/CV_Chasles_Gino.pdf#zoom=50"} height="500px" width="100%" title="cv"></embed>
         <img src={process.env.PUBLIC_URL + "/CV_Chasles_Gino_OC.png"} height="50%" width="80%" title="cv" alt="cv"></img>
         <img src={process.env.PUBLIC_URL + "./images/CV_Chasles_Gino_OC.png"} height="50%" width="80%" title="cv" alt="cv"></img>
         <img src={process.env.PUBLIC_URL + "/images/CV_Chasles_Gino_OC.png"} height="50%" width="80%" title="cv" alt="cv"></img>
