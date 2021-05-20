@@ -23,9 +23,9 @@ function App() {
         <iframe src={process.env.PUBLIC_URL + "CV_Chasles_Gino.pdf#view=Fit"} title="cv">
     </iframe>
         
-          {/* <Profil />
+          <Profil />
           <Competence />
-          <Formation /> */}
+          <Formation />
         </Route>
         <Route path="/portfolio"></Route>
         <Route path="/passions" component={<Profil/>}><div>portfolio</div>
