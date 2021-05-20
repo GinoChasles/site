@@ -20,7 +20,7 @@ function App() {
       <NavBar />
      <Switch>
         <Route path="/cv">
-        <iframe src={process.env.PUBLIC_URL + "CV_Chasles_Gino.pdf#view=Fit"} title="cv">
+        <iframe src="CV_Chasles_Gino.pdf#view=Fit" title="cv">
     </iframe>
         
           <Profil />
