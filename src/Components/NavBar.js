@@ -17,7 +17,7 @@ export default class NavBar extends Component {
         return (
             <div>
                 <div className="navbar-icon">
-                    <img src="images/menu.png"  onClick={this.handleClick} />
+                    <img src="images/menu.png"  onClick={this.handleClick} alt="icone menu"/>
                 </div>
                     <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {MenuItems.map((item, index) => {
