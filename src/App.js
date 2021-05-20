@@ -20,16 +20,14 @@ function App() {
       <NavBar />
      <Switch>
         <Route path="/cv">
-        <iframe src="CV_Chasles_Gino.pdf#view=Fit" title="cv"></iframe>
-        <iframe src="/CV_Chasles_Gino.pdf#view=Fit" title="cv"></iframe>
-        <iframe src="CV_Chasles_Gino.pdf" title="cv"></iframe>
+        <iframe src="/CV_Chasles_Gino.pdf" title="cv"></iframe>
           <Profil />
           <Competence />
           <Formation />
         </Route>
-        <Route path="/portfolio"></Route>
-        <Route path="/passions" component={<Profil/>}><div>portfolio</div>
-        <embed type="application/pdf" src={process.env.PUBLIC_URL + "CV_Chasles_Gino.pdf#zoom=50"} height="500px" width="100%" title="cv">
+        <Route path="/portfolio"><Profil/></Route>
+        <Route path="/passions" ><div>portfolio</div>
+        <embed type="application/pdf" src={process.env.PUBLIC_URL + "/CV_Chasles_Gino.pdf#zoom=50"} height="500px" width="100%" title="cv">
     </embed>
         <img src={process.env.PUBLIC_URL + "/CV_Chasles_Gino_OC.png"} height="50%" width="80%" title="cv" alt="cv">
     </img>
