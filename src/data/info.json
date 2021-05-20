@@ -16,7 +16,7 @@
     "linkedin": "https://www.linkedin.com/in/gino-chasles-9501351b6/",
     "github": "https://github.com/GinoChasles",
     "description": "Après une expérience certaine dans le monde industriel et dans celui de la randonnée j'ai appris que \"Le marcheur est celui qui prend son temps et ne laisse pas le temps le prendre\".",
-    "photo": "./images/PhotoProfil.jpg"
+    "photo": "/images/PhotoProfil.jpg"
   },
   "formations": [
     {
