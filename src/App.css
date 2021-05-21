@@ -9,13 +9,13 @@
   width: 100%;
   height: 100%;
 }
-/* iframe {
+embed {
   display:block;
   position:absolute;
   top:2vw;
-  height:100vw;
+  height:47vw;
   width: 100vw;
-} */
+}
 .formcanvas {
   width: 800px;
 }
