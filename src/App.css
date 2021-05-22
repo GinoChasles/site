@@ -19,6 +19,11 @@ embed {
 .formcanvas {
   width: 800px;
 }
+form {
+  display: block;
+  position: absolute;
+  top:3vw;
+}
 
 @media screen and (max-width: 360px) {
 

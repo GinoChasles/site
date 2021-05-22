@@ -9,6 +9,7 @@ import "./App.css";
 
 import NavBar from "./Components/CV/NavBar";
 import Portfolio from "./Components/Portfolio/Portfolio";
+import Form from "./Components/Contact/Form";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         </Route>
         <Route path="/portfolio"><Portfolio/></Route>
         <Route path="/passions" ></Route>
-        <Route path="/contact"><div>contact</div></Route>
+        <Route path="/contact"><Form/></Route>
 
      </Switch>
     </Router>

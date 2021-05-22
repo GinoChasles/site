@@ -1,10 +1,10 @@
 import React from "react";
 import data from "../../data/info.json";
-import './CSS/Competence.css'
+import "../CSS/Competence.css"
 
 export default function Competence() {
   return (
-    <div className="blockCompetence">
+    <section className="blockCompetence">
       {data.competences.map((el) => {
         let starLvl = [];
         for (let i = 0; i < el.niveau; i++) {
@@ -14,14 +14,14 @@ export default function Competence() {
           starLvl.push("☆");
         }
         return (
-          <div key={el.name} className="competence" id={el.name}>
-            <div>
+          <article key={el.name} className="competence" id={el.name}>
+            <figure>
               <img src={el.image} alt="logo de la compétence" width="64px" />
-            </div>
-            <div>{starLvl}</div>
-          </div>
+            <figcaption title={el.niveau + " étoiles sur 5"}>{starLvl}</figcaption>
+            </figure>
+          </article>
         );
       })}
-    </div>
-  );
+    </section>
+  )
 }

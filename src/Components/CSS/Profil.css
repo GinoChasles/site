@@ -13,6 +13,9 @@
 #description {
   margin-top:10px;
 }
+ #profil > ul{
+   list-style: none;
+ }
 @media screen and (max-width: 360px) {
   #profil {
     font-size:x-small;
