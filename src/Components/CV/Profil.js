@@ -1,7 +1,6 @@
 import React from 'react'
-import data from "../data/info.json"
-import './CSS/Profil.css'
-
+import data from "../../data/info.json"
+import "../CSS/Profil.css"
 export default function Profil() {
     return (
        <>

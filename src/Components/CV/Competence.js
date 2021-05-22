@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../data/info.json";
+import data from "../../data/info.json";
 import './CSS/Competence.css'
 
 export default function Competence() {

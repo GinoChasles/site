@@ -2,7 +2,7 @@
   "profil": {
     "nom": "Chasles",
     "prenom": "Gino",
-    "metier": "Développeur Web/Web Mobile",
+    "metier": "Concepteur Développeur d'Application",
     "adresse": {
       "numero": 10,
       "rue": "Allée Adrienne Bolland",
@@ -13,7 +13,7 @@
     },
     "telephone": "06 68 36 45 10",
     "mail": "mailto:gino.chasles@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/gino-chasles-9501351b6/",
+    "linkedin": "https://www.linkedin.com/in/gino-chasles/",
     "github": "https://github.com/GinoChasles",
     "description": "Après une expérience certaine dans le monde industriel et dans celui de la randonnée j'ai appris que \"Le marcheur est celui qui prend son temps et ne laisse pas le temps le prendre\".",
     "photo": "/site/images/PhotoProfil.jpg"
@@ -114,6 +114,15 @@
       "information": "Destockeur, préparateur de commande"
     }
   ],
+  "github":[
+    {
+      "id":"",
+      "lienRepo":"",
+      "lienDeplo":"",
+      "img":"",
+      "description":""
+    }
+  ],
   "competences": [
     {
       "name": "CSS3",
@@ -210,6 +219,24 @@
       "niveau": 3,
       "information": "",
       "image": "./images/maven.png"
+    },
+    {
+      "name": "Jira",
+      "niveau": 3,
+      "information": "",
+      "image": "./images/Jira-Logo.png"
+    },
+    {
+      "name": "Postman",
+      "niveau": 3,
+      "information": "",
+      "image": "./images/postman.png"
+    },
+    {
+      "name": "Figma",
+      "niveau": 3,
+      "information": "",
+      "image": "./images/figma.png"
     }
   ],
   "softskills": [

@@ -3,8 +3,8 @@ import {
     Link
   } from "react-router-dom";
 
-import { MenuItems } from "../data/MenuItems"
-import "./CSS/NavBar.css"
+import { MenuItems } from "./../../data/MenuItems"
+import "../CSS/NavBar.css"
 
 export default class NavBar extends Component {
     state = { clicked:false}

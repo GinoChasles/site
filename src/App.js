@@ -7,11 +7,8 @@ import {
 
 import "./App.css";
 
-import Formation from "./Components/Formation";
-import Competence from "./Components/Competence";
-import Profil from "./Components/Profil";
-import NavBar from "./Components/NavBar";
-
+import NavBar from "./Components/CV/NavBar";
+import Portfolio from "./Components/Portfolio/Portfolio";
 
 function App() {
   return (
@@ -22,7 +19,7 @@ function App() {
         <Route path="/cv">
          <embed type="application/pdf" src={process.env.PUBLIC_URL + "/images/CV_Chasles_Gino.pdf#view=FitH"}  title="cv"></embed>
         </Route>
-        <Route path="/portfolio"></Route>
+        <Route path="/portfolio"><Portfolio/></Route>
         <Route path="/passions" ></Route>
         <Route path="/contact"><div>contact</div></Route>
 
