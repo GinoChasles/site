@@ -6,6 +6,6 @@ export default function Deploy(props) {
         return ""
     } else
     return (
-        <button><a href={props.props.lienDeplo}>{props.nom}</a></button>
+        <button><a href={props.props}>{props.nom}</a></button>
     )
 }
