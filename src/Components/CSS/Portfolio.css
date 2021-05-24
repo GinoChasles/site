@@ -1,0 +1,17 @@
+#portfolio-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.portfolio-card-article {
+    width:50vw;
+    text-align: center;
+}
+
+.portfolio-card-article > img {
+    display:block;
+    margin:auto;
+}
+.portfolio-card-article > button > a {
+    text-decoration: none;
+}
