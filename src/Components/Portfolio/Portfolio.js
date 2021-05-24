@@ -6,7 +6,7 @@ import Card from "./Card";
 import "../CSS/Portfolio.css"
 export default function Portfolio() {
     return (
-        <section>
+        <section id="portfolio">
             <Profil/>
             <Competence/>
             <Card repos={data.github}/>

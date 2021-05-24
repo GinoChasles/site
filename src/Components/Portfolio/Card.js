@@ -16,8 +16,8 @@ export default function Card(props) {
     )
     function notimg(url)  {
         if (url === ""){
-            return <img src="https://www.webmarketing-com.com/wp-content/uploads/2015/09/creation-site.jpg" height="250px" width="400px" alt="associée au projet"/>
+            return <img className="portfolio-card-img" src="https://www.webmarketing-com.com/wp-content/uploads/2015/09/creation-site.jpg" height="250px"  alt="associée au projet"/>
         }
-        else return <img src={url} height="250px" width="400px" alt="associée au projet"/>
+        else return <img className="portfolio-card-img" src={url} height="250px"  alt="associée au projet"/>
     }
 }

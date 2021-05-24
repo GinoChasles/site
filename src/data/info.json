@@ -117,80 +117,82 @@
   ],
   "github":[
     {
-      "id":"repo1",
-      "lienRepo":"https://github.com/GinoChasles/locationvoiture",
-      "lienDeplo":"https://ginochasles.github.io/locationvoiture/",
-      "img":"",
-      "description":"Site vitrine d'un site de location de véhicule. Site réalisé selon maquette."
-    },{
-      "id":"repo2",
-      "lienRepo":"https://github.com/GinoChasles/blog-strapi",
-      "lienDeplo":"https://lsf4all-strapi.herokuapp.com/",
+      "id": "repo1",
+      "lienRepo": "https://github.com/GinoChasles/givemeacar",
+      "lienDeplo": "",
+      "img": "",
+      "description": "Projet en équipe, création d'une plateforme de location de véhicule en ligne avec système de géolocalisation des véhicules. Projet mené en méthode agile Scrum (rôle de Scrum Master). Conception UML, base de données MySQL, Java, ReactJS, React-admin (dashboard), Leaflet."
+    },
+    {
+      "id": "repo2",
+      "lienRepo": "https://github.com/GinoChasles/lsfproject",
+      "lienDeplo": "",
+      "img": "",
+      "description": "Projet solo présenté pour mon titre professionnel. Création d'un site web permettant la traduction de la langue française en langue des signes française (LSF). Back-end Java/Springboot. Base de données MySQL. Front-end ReactJS."
+    },
+    {
+      "id": "repo3",
+      "lienRepo": "https://github.com/GinoChasles/locationvoiture",
+      "lienDeplo": "https://ginochasles.github.io/locationvoiture/",
+      "img": "",
+      "description": "Projet à deux. Site vitrine d'une agence de location de véhicules. Réalisation du site à la suite d'un maquettage effectué par mon coéquipier."
+    },
+    {
+      "id": "repo4",
+      "lienRepo": "https://github.com/GinoChasles/blog-strapi",
+      "lienDeplo": "https://lsf4all-strapi.herokuapp.com/",
       "img":"",
       "description":"Serveur back-end (CRUD) d'un blog, utilisation du CMS strapi."
-    },{
-      "id":"repo3",
+    },
+    {
+      "id":"repo5",
       "lienRepo":"https://github.com/GinoChasles/blog-gatsby",
       "lienDeplo":"https://blog-lsf4all-gatsby.netlify.app/",
       "img":"",
       "description":"Utilisation du CMS Gatsby, génération d'une page statique en réponse d'une requête (Server Side Rendering) sur mon API back-end créée via strapi."
     },{
-      "id":"repo4",
+      "id":"repo6",
       "lienRepo":"https://github.com/GinoChasles/pokedex",
       "lienDeplo":"https://ginochasles.github.io/pokedex/",
       "img":"https://eternia.fr/public/media//rb/ressources/pokedex2.png",
       "description":"Exercice de début de formation afin d'effectuer une requête sur une API et traiter les données. JS6."
     },{
-      "id":"repo5",
+      "id":"repo7",
       "lienRepo":"https://github.com/GinoChasles/BreizhVideoFront",
       "lienDeplo":"https://ginochasles.github.io/BreizhVideoFront/",
       "img":"",
-      "description":"Création d'une interface dynamique pour un challenge de deux jours. ReactJs et React-Bootstrap."
+      "description":"Création d'une interface dynamique pour un challenge de deux jours. ReactJS et React-Bootstrap."
     },{
-      "id":"repo6",
+      "id":"repo8",
       "lienRepo":"https://github.com/GinoChasles/BreizhCarBack",
       "lienDeplo":"",
       "img":"",
       "description":"Défi sur deux jours. Création d'un site web proposant des films, une date de tournée pour différents villages ainsi qu'un vote pour les films. Création d'un API back-end en java."
     },{
-      "id":"repo7",
+      "id":"repo9",
       "lienRepo":"https://github.com/GinoChasles/java-training",
       "lienDeplo":"",
       "img":"",
-      "description":"20 exercices procédurales en java. Ecriture des méthodes pour résoudre les tests."
+      "description":"20 exercices procédurales en java. Ecriture des méthodes pour résoudre les tests données."
     },{
-      "id":"repo8",
+      "id":"repo10",
       "lienRepo":"https://github.com/GinoChasles/kata",
       "lienDeplo":"",
       "img":"",
-      "description":"Exercice en pair programming, rédaction de test unitaire et du code associée."
+      "description":"Exercices en pair programming, rédaction de tests unitaires et du code associée."
     },{
-      "id":"repo9",
+      "id":"repo11",
       "lienRepo":"https://github.com/GinoChasles/pendu",
       "lienDeplo":"",
       "img":"",
-      "description":"Réalisation du jeu du pendu en mode console."
-    },
-    {
-      "id":"repo10",
-      "lienRepo":"https://github.com/GinoChasles/morpion",
-      "lienDeplo":"",
-      "img":"",
-      "description":"Réalisation du jeu de morpion pour 2 joueurs en mode console. Programmation objet."
-    },
-    {
-      "id":"repo11",
-      "lienRepo":"https://github.com/GinoChasles/givemeacar",
-      "lienDeplo":"",
-      "img":"",
-      "description":"Projet en équipe, création d'une plateforme de location de véhicule en ligne avec système de géolocalisation des véhicules. Projet mené en méthode agile Scrum (rôle de Scrum Master). Conception UML, base de données MySQL, Java, ReactJS, React-admin (dashboard), Leaflet."
+      "description":"Réalisation du jeu du pendu en mode console en Java."
     },
     {
       "id":"repo12",
-      "lienRepo":"https://github.com/GinoChasles/lsfproject",
+      "lienRepo":"https://github.com/GinoChasles/morpion",
       "lienDeplo":"",
       "img":"",
-      "description":"Projet solo présenté pour mon titre professionnel. Création d'un site web permettant la traduction de la langue française en langue des signes française (LSF)."
+      "description":"Réalisation du jeu de morpion pour 2 joueurs en mode console. Programmation objet en Java."
     }
   ],
   "competences": [
