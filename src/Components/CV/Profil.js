@@ -14,8 +14,7 @@ export default function Profil() {
                 <ul id="contact">
                     <li>{data.profil.adresse.numero} {data.profil.adresse.rue} {data.profil.adresse.codePostale} {data.profil.adresse.ville}</li>
                    <a href={data.profil.mail}><li>gino.chasles@gmail.com</li></a>
-                   <a href={data.profil.linkedin}><li>linkedin</li></a><a href={data.profil.github}><li>github</li></a>
-                    <a href={process.env.PUBLIC_URL + "CV_Chasles_Gino.pdf"} download>Télécharger mon CV</a>
+                    <li><a href={data.profil.linkedin}>linkedin</a>                   <a href={process.env.PUBLIC_URL + "CV_Chasles_Gino.pdf"} download>Télécharger mon CV</a></li>
                 </ul>
                     <p id="description">{data.profil.description}</p>
 

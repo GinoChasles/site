@@ -120,14 +120,14 @@
       "id": "repo1",
       "lienRepo": "https://github.com/GinoChasles/givemeacar",
       "lienDeplo": "",
-      "img": "",
+      "img": "https://www.manager-go.com/assets/Uploads/Agile-min.jpg",
       "description": "Projet en équipe, création d'une plateforme de location de véhicule en ligne avec système de géolocalisation des véhicules. Projet mené en méthode agile Scrum (rôle de Scrum Master). Conception UML, base de données MySQL, Java, ReactJS, React-admin (dashboard), Leaflet."
     },
     {
       "id": "repo2",
       "lienRepo": "https://github.com/GinoChasles/lsfproject",
       "lienDeplo": "",
-      "img": "",
+      "img": "./images/logo2.png",
       "description": "Projet solo présenté pour mon titre professionnel. Création d'un site web permettant la traduction de la langue française en langue des signes française (LSF). Back-end Java/Springboot. Base de données MySQL. Front-end ReactJS."
     },
     {
