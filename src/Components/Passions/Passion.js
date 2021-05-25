@@ -13,21 +13,6 @@ export default function Passion() {
                         <p>{el.infoBis}</p>
                         <a href={"#"+el.id}>Plus d'infos</a>
                         <Modal els={el}/>
-                        {/*<section className="modal" id="infos">*/}
-                        {/*    <section className="modal-dialog">*/}
-                        {/*        <div className="modal-content">*/}
-                        {/*            <a href="/passions" className="closebtn">×</a>*/}
-                        {/*            <article>1</article>*/}
-                        {/*            <article>2</article>*/}
-                        {/*            {el.map((els)=>{*/}
-                        {/*                return <article>{els}</article>*/}
-                        {/*            })}*/}
-                        {/*        </div>*/}
-                        {/*    </section>*/}
-                        {/*</section>*/}
-                        <dialog open>
-
-                        </dialog>
                     </article>
                 )
             })}

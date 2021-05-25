@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../CSS/Modal.css"
 export default function Modal(props) {
     return (
         <section className="modal" id={props.els.id}>

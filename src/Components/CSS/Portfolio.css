@@ -2,7 +2,7 @@
     padding: 0 10px 20px 10px;
 }
 
-#portfolio-card {
+#portfolio-card  {
     display: grid;
     grid-gap: 30px;
     grid-template-columns: repeat(3, 3fr);
