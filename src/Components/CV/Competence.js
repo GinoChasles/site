@@ -16,7 +16,7 @@ export default function Competence() {
         return (
           <article key={el.name} className="competence" id={el.name}>
             <figure>
-              <img src={el.image} alt="logo de la compétence" width="64px" />
+              <img src={el.image} alt={"logo de la technologie " + el.name} width="64px" />
             <figcaption title={el.niveau + " étoiles sur 5"}>{starLvl}</figcaption>
             </figure>
           </article>

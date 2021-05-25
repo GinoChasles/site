@@ -1,7 +1,7 @@
 import React from 'react'
 export default function Form() {
     return (
-        <form action="MAILTO:gino.chasles@gmail.com" method="post" enctype="text/plain">
+        <form action="MAILTO:gino.chasles@gmail.com" method="post" encType="text/plain">
             <label> Name:</label>
             <input type="text" name="name" />
             <input type="text" name="mail" />

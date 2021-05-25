@@ -1,10 +1,10 @@
 #portfolio {
-    padding-bottom:20px;
+    padding: 0 10px 20px 10px;
 }
 
 #portfolio-card {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 30px;
     grid-template-columns: repeat(3, 3fr);
     justify-content: space-between;
 }
@@ -17,11 +17,21 @@
     border-radius: 5px;
     -webkit-box-shadow: 5px 8px 7px 6px #21403A;
     box-shadow: 5px 8px 7px 6px #21403A;
+
+}
+.portfolio-card-article:hover{
+    transform: scale(1.1);
+}
+.portfolio-card-article > img:hover{
+    filter:none;
 }
 .portfolio-card-article > img {
+    filter: grayscale(100%);
+    transition: filter 0.4s ease-in-out;
     object-fit: contain;
     display:block;
-    width:100%;
+    width:90%;
+    margin: auto;
 }
 .portfolio-card-article > button > a {
     text-decoration: none;
