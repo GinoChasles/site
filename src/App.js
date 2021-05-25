@@ -10,6 +10,7 @@ import "./App.css";
 import NavBar from "./Components/CV/NavBar";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Form from "./Components/Contact/Form";
+import Passions from "./Components/Passions/Passions";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
          <embed type="application/pdf" src={process.env.PUBLIC_URL + "/images/CV_Chasles_Gino.pdf#view=FitH"}  title="cv"></embed>
         </Route>
         <Route path="/portfolio"><Portfolio/></Route>
-        <Route path="/passions" ></Route>
+        <Route path="/passions" ><Passions /></Route>
         <Route path="/contact"><Form/></Route>
 
      </Switch>
