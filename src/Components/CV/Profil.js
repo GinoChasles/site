@@ -5,7 +5,7 @@ export default function Profil() {
     return (
        <>
         <article id="profil">
-            <img id="photo" src={data.profil._photo} alt="profil"/>
+            <img id="photo" src={data.profil.photo} alt="profil"/>
                 <ul id="identite">
                     <li>{data.profil.metier}</li>
                     <li>{data.profil.prenom} {data.profil.nom}</li>
