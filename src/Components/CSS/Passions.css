@@ -3,7 +3,6 @@
     grid-gap: 30px;
     grid-template-columns: repeat(2, 2fr);
     justify-content: space-around;
-    justify-items: center;
     padding: 60px 10px 20px 10px;
     height:100%;
 }
