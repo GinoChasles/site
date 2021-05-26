@@ -1,12 +1,40 @@
 #passion {
     display: grid;
     grid-gap: 30px;
-    grid-template-columns: repeat(2, 3fr);
-    justify-content: space-between;
+    grid-template-columns: repeat(2, 2fr);
+    justify-content: space-around;
+    justify-items: center;
     padding: 60px 10px 20px 10px;
     height:100%;
 }
-.passion-card > h2, a, p {
-    display:block;
+.passion-card  {
     text-align: center;
+    transform: rotate(-2deg);
+    padding: 0 10px 10px 10px;
+    margin:15px;
+    background:#ddd;
+    border:1px solid #222;
+    box-shadow:3px 3px 0 #222;
+    width:350px;
+    border-width: 3px 3px 5px 5px;
+    border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+}
+
+.passion-card > h2 {
+    transform: rotate(2deg);
+    margin:15px;
+    padding:0 5px;
+    background:#ddd;
+    border:1px solid #222;
+    box-shadow:3px 3px 0 #222;
+}
+
+.passion-card > a {
+    transform: rotate(2deg);
+    margin:25px;
+    padding:0 5px;
+    float: right;
+    background:#ddd;
+    border:1px solid #222;
+    box-shadow:3px 3px 0 #222;
 }

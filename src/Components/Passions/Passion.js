@@ -7,11 +7,13 @@ export default function Passion() {
         <section id="passion">
             {data.passions.map((el) => {
                 return (
-                    <article key={el.id} className="passion-card">
+                    <article key={el.id} >
+                        <div className="passion-card">
                         <h2>{el.name}</h2>
                         <p>{el.info}</p>
-                        <p>{el.infoBis}</p>
-                        <a href={"#"+el.id}>Plus d'infos</a>
+                        <a href={"#"+el.id} >Plus d'infos</a>
+                        </div>
+
                         <Modal els={el}/>
                     </article>
                 )

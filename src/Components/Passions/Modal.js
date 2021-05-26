@@ -7,7 +7,6 @@ export default function Modal(props) {
                 <div className="modal-content">
                     <a href="/passions" className="closebtn">×</a>
                     <article>{props.els.info}</article>
-                    <article>{props.els.infoBis}</article>
                 </div>
             </section>
         </section>

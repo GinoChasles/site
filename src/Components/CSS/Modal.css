@@ -1,6 +1,8 @@
 
 .modal {
-    display: none;
+    display: table;
+    position: fixed;
+
     left: 0;
     top: 0;
     width: 100%;
@@ -10,15 +12,16 @@
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.modal:target {
-    display: table;
-    position: absolute;
-}
+/*.modal:target {*/
+/*    display: table;*/
+/*    position: absolute;*/
+/*}*/
 .modal-dialog {
     display: table-cell;
     vertical-align: middle;
 }
 .modal-dialog .modal-content {
+    z-index:10;
     margin: auto;
     background-color: #f3f3f3;
     position: relative;
