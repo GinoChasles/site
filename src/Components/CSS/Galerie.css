@@ -1,0 +1,35 @@
+.slide-container{
+    display: flex;
+    position:relative;
+    top:80px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.slide-container > figure > img {
+    max-height:200px;
+    object-fit: contain;
+}
+
+#slide-gauche{
+    position: relative;
+    top:-20px;
+    -moz-transform: scale(0.8) rotate(7deg) skew(7deg, 9deg);
+    -webkit-transform: scale(0.8) rotate(7deg) skew(7deg, 9deg);
+    -o-transform: scale(0.8) rotate(7deg) skew(7deg, 9deg);
+    -ms-transform: scale(0.8) rotate(7deg) skew(7deg, 9deg);
+    transform: scale(0.8) rotate(7deg) skew(7deg, 9deg);
+}
+#slide-central{
+}
+#slide-central:hover{
+    transform: scale(2);
+}
+#slide-droit{
+    position: relative;
+    top:-20px;
+    -moz-transform: scale(0.8) rotate(-7deg) skew(-7deg, -9deg);
+    -webkit-transform: scale(0.8) rotate(-7deg) skew(-7deg, -9deg);
+    -o-transform: scale(0.8) rotate(-7deg) skew(-7deg, -9deg);
+    -ms-transform: scale(0.8) rotate(-7deg) skew(-7deg, -9deg);
+    transform: scale(0.8) rotate(-7deg) skew(-7deg, -9deg);
+}

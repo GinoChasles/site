@@ -39,6 +39,7 @@
         position:fixed;
         width:100%;
         padding:5px;
+        z-index:99999;
     }
     .navbar-icon img {
         transition: all 0.5s ease;

@@ -35,6 +35,11 @@
 }
 .modal-content > *{
     padding: 2px 16px ;
+    height:50%;
+    width:100%;
+}
+.modal-content {
+    height:50%;
 }
 .closebtn {
     text-decoration: none;
@@ -42,6 +47,8 @@
     font-size: 35px;
     font-weight: bold;
     color: red;
+    height:50px;
+    width:52px;
 }
 
 .closebtn:hover,

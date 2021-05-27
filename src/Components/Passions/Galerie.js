@@ -1,4 +1,5 @@
 import React from "react";
+import '../CSS/Galerie.css'
 
 export default class Galerie extends React.Component {
     constructor(props) {
@@ -26,11 +27,11 @@ export default class Galerie extends React.Component {
             previousSlide: index - 1,
             nextSlide: index + 1
         });
-        if(index==0){
-            this.setState({previousSlide:lastIndex})
+        if (index === 0) {
+            this.setState({previousSlide: lastIndex})
         }
-        if(index==lastIndex){
-            this.setState({nextSlide:0})
+        if (index === lastIndex) {
+            this.setState({nextSlide: 0})
         }
     }
 
@@ -44,32 +45,32 @@ export default class Galerie extends React.Component {
             previousSlide: index - 1,
             nextSlide: index + 1
         });
-        if(index==0){
-            this.setState({previousSlide:lastIndex})
+        if (index === 0) {
+            this.setState({previousSlide: lastIndex})
         }
-        if(index==lastIndex){
-            this.setState({nextSlide:0})
+        if (index === lastIndex) {
+            this.setState({nextSlide: 0})
         }
     }
 
 
     render() {
         return (
-            <article>
-                <figure>
-                    <img id={"slide"} src={this.props.passion.images[this.state.previousSlide]}
-                         onClick={this.previousSlide} alt="dessin" width="64px"
-                         height="64px"/>
-                </figure>
-                <figure>
-                    <img id={"slide"} src={this.props.passion.images[this.state.slide]} alt="dessin" width="64px"
-                         height="64px"/>
-                </figure>
-                <figure>
-                    <img id={"slide"} src={this.props.passion.images[this.state.nextSlide]} onClick={this.nextSlide}
-                         alt="dessin" width="64px"
-                         height="64px"/>
-                </figure>
+            <article className="slide-container">
+
+                    <figure id="slide-gauche">
+                        <img src={this.props.passion.images[this.state.previousSlide]}
+                             onClick={this.previousSlide} alt="dessin"/>
+                    </figure>
+                    <figure id="slide-central">
+                        <img  src={this.props.passion.images[this.state.slide]} alt="dessin"/>
+                    </figure>
+                    <figure id="slide-droit">
+                        <img src={this.props.passion.images[this.state.nextSlide]}
+                             onClick={this.nextSlide}
+                             alt="dessin"/>
+                    </figure>
+
                 {/*<button type={"button"} onClick={this.previousSlide}>&#9664;</button>*/}
                 {/*<button type={"button"} onClick={this.nextSlide}>+1</button>*/}
             </article>
