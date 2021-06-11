@@ -1,35 +1,68 @@
 .slide-container{
-    display: flex;
     position:relative;
-    top:80px;
-    flex-direction: row;
-    justify-content: space-between;
+    top:50px;
+    text-align: center;
 }
 .slide-container > figure > img {
-    max-height:200px;
+    max-height:350px;
+    max-width: 450px;
     object-fit: contain;
+    margin: auto;
+}
+.button-nav {
+    height:25px;
+    width:25px;
+    margin: auto;
+}
+#buttons-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: auto 45%;
 }
 
-#slide-gauche{
-    position: relative;
-    top:-20px;
-    -moz-transform: scale(0.8) rotate(7deg) skew(7deg, 9deg);
-    -webkit-transform: scale(0.8) rotate(7deg) skew(7deg, 9deg);
-    -o-transform: scale(0.8) rotate(7deg) skew(7deg, 9deg);
-    -ms-transform: scale(0.8) rotate(7deg) skew(7deg, 9deg);
-    transform: scale(0.8) rotate(7deg) skew(7deg, 9deg);
-}
 #slide-central{
+    height:375px;
 }
 #slide-central:hover{
-    transform: scale(2);
 }
-#slide-droit{
-    position: relative;
-    top:-20px;
-    -moz-transform: scale(0.8) rotate(-7deg) skew(-7deg, -9deg);
-    -webkit-transform: scale(0.8) rotate(-7deg) skew(-7deg, -9deg);
-    -o-transform: scale(0.8) rotate(-7deg) skew(-7deg, -9deg);
-    -ms-transform: scale(0.8) rotate(-7deg) skew(-7deg, -9deg);
-    transform: scale(0.8) rotate(-7deg) skew(-7deg, -9deg);
+
+@media screen and (max-width: 485px) {
+    .slide-container > figure > img {
+        max-height:200px;
+        max-width: 250px;
+        object-fit: contain;
+    }
+    #slide-central{
+        height:255px;
+    }
 }
+
+@media screen and (max-width: 355px) {
+    .slide-container > figure > img {
+        max-height:150px;
+        max-width: 150px;
+        object-fit: contain;
+    }
+    #slide-central{
+        height:200px;
+    }
+}
+/*#slide-gauche{*/
+/*    position: relative;*/
+/*    top:-20px;*/
+/*    -moz-transform: scale(0.8) rotate(7deg) skew(7deg, 9deg);*/
+/*    -webkit-transform: scale(0.8) rotate(7deg) skew(7deg, 9deg);*/
+/*    -o-transform: scale(0.8) rotate(7deg) skew(7deg, 9deg);*/
+/*    -ms-transform: scale(0.8) rotate(7deg) skew(7deg, 9deg);*/
+/*    transform: scale(0.8) rotate(7deg) skew(7deg, 9deg);*/
+/*}*/
+/*#slide-droit{*/
+/*    position: relative;*/
+/*    top:-20px;*/
+/*    -moz-transform: scale(0.8) rotate(-7deg) skew(-7deg, -9deg);*/
+/*    -webkit-transform: scale(0.8) rotate(-7deg) skew(-7deg, -9deg);*/
+/*    -o-transform: scale(0.8) rotate(-7deg) skew(-7deg, -9deg);*/
+/*    -ms-transform: scale(0.8) rotate(-7deg) skew(-7deg, -9deg);*/
+/*    transform: scale(0.8) rotate(-7deg) skew(-7deg, -9deg);*/
+/*}*/

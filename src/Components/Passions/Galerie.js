@@ -58,21 +58,25 @@ export default class Galerie extends React.Component {
         return (
             <article className="slide-container">
 
-                    <figure id="slide-gauche">
-                        <img src={this.props.passion.images[this.state.previousSlide]}
-                             onClick={this.previousSlide} alt="dessin"/>
-                    </figure>
+
                     <figure id="slide-central">
                         <img  src={this.props.passion.images[this.state.slide]} alt="dessin"/>
                     </figure>
-                    <figure id="slide-droit">
-                        <img src={this.props.passion.images[this.state.nextSlide]}
-                             onClick={this.nextSlide}
-                             alt="dessin"/>
-                    </figure>
+                <div id="buttons-nav">
+                <button className="button-nav" type="button" onClick={this.previousSlide} >&#9204;</button>
+                <button className="button-nav" type="button" onClick={this.nextSlide} >&#9205;</button>
+                </div>
 
-                {/*<button type={"button"} onClick={this.previousSlide}>&#9664;</button>*/}
-                {/*<button type={"button"} onClick={this.nextSlide}>+1</button>*/}
+                {/*<figure id="slide-gauche">*/}
+                {/*    <img src={this.props.passion.images[this.state.previousSlide]}*/}
+                {/*         onClick={this.previousSlide} alt="dessin"/>*/}
+                {/*</figure>*/}
+                    {/*<figure id="slide-droit">*/}
+                    {/*    <img src={this.props.passion.images[this.state.nextSlide]}*/}
+                    {/*         onClick={this.nextSlide}*/}
+                    {/*         alt="dessin"/>*/}
+                    {/*</figure>*/}
+
             </article>
         )
     }

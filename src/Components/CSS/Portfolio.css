@@ -4,13 +4,13 @@
 
 #portfolio-card  {
     display: grid;
-    grid-gap: 30px;
+    grid-gap: 40px;
     grid-template-columns: repeat(3, 3fr);
     justify-content: space-between;
 }
 .portfolio-card-article {
     width:95%;
-    margin:auto;
+    margin: 0 auto;
     padding:0 0 10px 0;
     text-align: center;
     border: 2px solid black;
@@ -41,9 +41,10 @@
     margin: 10px 10px 10px 10px;
     justify-content: space-between;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     #portfolio-card {
         grid-template-columns: repeat(2, 2fr);
+        grid-gap: 50px;
     }
 }
 @media screen and (max-width: 467px) {
