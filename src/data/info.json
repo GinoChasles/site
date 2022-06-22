@@ -127,7 +127,7 @@
       "id": "repo2",
       "lienRepo": "https://github.com/GinoChasles/lsfproject",
       "lienDeplo": "",
-      "img": "./images/logo2.png",
+      "img": "/site/images/logo2.png",
       "description": "Projet solo présenté pour mon titre professionnel. Création d'un site web permettant la traduction de la langue française en langue des signes française (LSF). Back-end Java/Springboot. Base de données MySQL. Front-end ReactJS."
     },
     {
@@ -200,115 +200,115 @@
       "name": "CSS3",
       "niveau": 3,
       "information": "",
-      "image": "./images/css3.png"
+      "image": "/site/images/css3.png"
     },
     {
       "name": "HTML5",
       "niveau": 3,
       "information": "",
-      "image": "./images/HTML5.png"
+      "image": "/site/images/HTML5.png"
     },
     {
       "name": "C",
       "niveau": 2,
       "information": "",
-      "image": "./images/c.png"
+      "image": "/site/images/c.png"
     },
     {
       "name": "C++",
       "niveau": 2,
       "information": "",
-      "image": "./images/c++.png"
+      "image": "/site/images/c++.png"
     },
     {
       "name": "Cisco",
       "niveau": 3,
       "information": "",
-      "image": "./images/cisco.png"
+      "image": "/site/images/cisco.png"
     },
     {
       "name": "Arduino",
       "niveau": 3,
       "information": "",
-      "image": "./images/arduino.png"
+      "image": "/site/images/arduino.png"
     },
     {
       "name": "MySQL",
       "niveau": 3,
       "information": "",
-      "image": "./images/mysql.png"
+      "image": "/site/images/mysql.png"
     },
     {
       "name": "Git",
       "niveau": 3,
       "information": "",
-      "image": "./images/git.png"
+      "image": "/site/images/git.png"
     },
     {
       "name": "Github",
       "niveau": 3,
       "information": "",
-      "image": "./images/github.png"
+      "image": "/site/images/github.png"
     },
     {
       "name": "Java",
       "niveau": 3,
       "information": "",
-      "image": "./images/java.png"
+      "image": "/site/images/java.png"
     },
     {
       "name": "JavaScript",
       "niveau": 3,
       "information": "",
-      "image": "./images/javascript.png"
+      "image": "/site/images/javascript.png"
     },
     {
       "name": "VueJS",
       "niveau": 2,
       "information": "",
-      "image": "./images/vuejs.png"
+      "image": "/site/images/vuejs.png"
     },
     {
       "name": "ReactJS",
       "niveau": 3,
       "information": "",
-      "image": "./images/reactjs.png"
+      "image": "/site/images/reactjs.png"
     },
     {
       "name": "NodeJS",
       "niveau": 3,
       "information": "",
-      "image": "./images/nodejs.png"
+      "image": "/site/images/nodejs.png"
     },
     {
       "name": "SpringBoot",
       "niveau": 3,
       "information": "",
-      "image": "./images/springboot.png"
+      "image": "/site/images/springboot.png"
     },
     {
       "name": "Maven",
       "niveau": 3,
       "information": "",
-      "image": "./images/maven.png"
+      "image": "/site/images/maven.png"
     },
     {
       "name": "Jira",
       "niveau": 3,
       "information": "",
-      "image": "./images/Jira-Logo.png"
+      "image": "/site/images/Jira-Logo.png"
     },
     {
       "name": "Postman",
       "niveau": 3,
       "information": "",
-      "image": "./images/postman.png"
+      "image": "/site/images/postman.png"
     },
     {
       "name": "Figma",
       "niveau": 3,
       "information": "",
-      "image": "./images/figma.png"
+      "image": "/site/images/figma.png"
     }
   ],
   "softskills": [
@@ -367,18 +367,18 @@
       "name": "Dessin",
       "info": "Reproduction d'images au crayon papier. J'ai le défaut de ne pouvoir reproduire qu'une seule fois. Les autres essais ne me satisfont absolument pas !",
       "images": [
-        "./images/passions/dessins/1.jpg",
-        "./images/passions/dessins/2.jpg",
-        "./images/passions/dessins/3.jpg",
-        "./images/passions/dessins/4.jpg",
-        "./images/passions/dessins/5.jpg",
-        "./images/passions/dessins/6.jpg",
-        "./images/passions/dessins/7.jpg",
-        "./images/passions/dessins/8.jpg",
-        "./images/passions/dessins/9.jpg",
-        "./images/passions/dessins/10.jpg",
-        "./images/passions/dessins/11.jpg",
-        "./images/passions/dessins/12.jpg"
+        "/site/images/passions/dessins/1.jpg",
+        "/site/images/passions/dessins/2.jpg",
+        "/site/images/passions/dessins/3.jpg",
+        "/site/images/passions/dessins/4.jpg",
+        "/site/images/passions/dessins/5.jpg",
+        "/site/images/passions/dessins/6.jpg",
+        "/site/images/passions/dessins/7.jpg",
+        "/site/images/passions/dessins/8.jpg",
+        "/site/images/passions/dessins/9.jpg",
+        "/site/images/passions/dessins/10.jpg",
+        "/site/images/passions/dessins/11.jpg",
+        "/site/images/passions/dessins/12.jpg"
       ]
     },
     {
