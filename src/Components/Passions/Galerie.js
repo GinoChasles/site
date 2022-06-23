@@ -62,6 +62,9 @@ export default class Galerie extends React.Component {
                     <figure id="slide-central">
                         <img  src={this.props.passion.images[this.state.slide]} alt="dessin"/>
                     </figure>
+                    <p>{this.props.passion.images[0]}</p>
+                    <p>{this.props.passion.images.length}</p>
+                    <p>{this.props.passion.images}</p>
                 <div id="buttons-nav">
                 <button className="button-nav" type="button" onClick={this.previousSlide} >&#9204;</button>
                 <button className="button-nav" type="button" onClick={this.nextSlide} >&#9205;</button>
