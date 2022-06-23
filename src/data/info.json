@@ -367,18 +367,18 @@
       "name": "Dessin",
       "info": "Reproduction d'images au crayon papier. J'ai le défaut de ne pouvoir reproduire qu'une seule fois. Les autres essais ne me satisfont absolument pas !",
       "images": [
-        "/site/images/1.jpg",
-        "/site/images/2.jpg",
-        "/site/images/3.jpg",
-        "/site/images/4.jpg",
-        "/site/images/5.jpg",
-        "/site/images/6.jpg",
-        "/site/images/7.jpg",
-        "/site/images/8.jpg",
-        "/site/images/9.jpg",
-        "/site/images/10.jpg",
-        "/site/images/11.jpg",
-        "/site/images/12.jpg"
+        "/images/1.jpg",
+        "/images/2.jpg",
+        "/images/3.jpg",
+        "/images/4.jpg",
+        "/images/5.jpg",
+        "/images/6.jpg",
+        "/images/7.jpg",
+        "/images/8.jpg",
+        "/images/9.jpg",
+        "/images/10.jpg",
+        "/images/11.jpg",
+        "/images/12.jpg"
       ]
     },
     {
